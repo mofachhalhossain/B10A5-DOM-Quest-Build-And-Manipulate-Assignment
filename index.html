@@ -16,11 +16,11 @@
             <nav class="container">
                 <a href="blog.html" class="blog-page">Blog</a>
                 <div class="logo">
-                    <img src="/assets/logo.png" alt="logo">
+                    <img src="./assets/logo.png" alt="logo">
                     <p>Donate Bangladesh</p>
                 </div>
                 <div class="amount">
-                    <img src="/assets/coin.png" alt="coin">
+                    <img src="./assets/coin.png" alt="coin">
                     <p id="amount">5500 BDT</p>
                 </div>
             </nav>
@@ -31,57 +31,80 @@
         </div>
     </header>
 
-    <div class="donation-body">
-        <div class="container">
-            <div class="donation-cards">
-
-                <div class="donation-card">
-                    <img src="/assets/noakhali.png" alt="noakhali">
-                    <div class="donation-content">
-                        <div class="donated-amount">
-                            <img src="/assets/coin.png" alt="coin">
-                            <p>0 BDT</p>
-                        </div>
-                        <h3 class="donation-title">Donate for Flood at Noakhali, Bangladesh</h3>
-                        <p class="donation-description">The recent floods in Noakhali have caused significant damage to homes and infrastructure. Your donation will help provide essential supplies to those affected by this disaster. Every contribution, big or small, makes a difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
-                        <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-xs" />
-                        <button class="btn btn-block btn-donate">Donate Now</button>
-                    </div>
-                </div>
-
-                <div class="donation-card">
-                    <img src="/assets/feni.png" alt="feni">
-                    <div class="donation-content">
-                        <div class="donated-amount">
-                            <img src="/assets/coin.png" alt="coin">
-                            <p>600 BDT</p>
-                        </div>
-                        <h3 class="donation-title">Donate for Flood Relief in Feni,Bangladesh</h3>
-                        <p class="donation-description">The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
-                        <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-xs" />
-                        <button class="btn btn-block btn-donate">Donate Now</button>
-                    </div>
-                </div>
-
-                <div class="donation-card">
-                    <img src="/assets/quota-protest.png" alt="quota">
-                    <div class="donation-content">
-                        <div class="donated-amount">
-                            <img src="/assets/coin.png" alt="coin">
-                            <p>2400 BDT</p>
-                        </div>
-                        <h3 class="donation-title">Aid for Injured in the Quota Movement</h3>
-                        <p class="donation-description">The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
-                        <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-xs" />
-                        <button class="btn btn-block btn-donate">Donate Now</button>
-                    </div>
-                </div>
+    <div id="main-body">
+        <div class="donation-body body-active">
+            <div class="container">
+                <div class="donation-cards">
     
+                    <div class="donation-card">
+                        <img src="./assets/noakhali.png" alt="noakhali">
+                        <div class="donation-content">
+                            <div class="donated-amount">
+                                <img src="./assets/coin.png" alt="coin">
+                                <p id="present-amount">0 BDT</p>
+                            </div>
+                            <h3 class="donation-title">Donate for Flood at Noakhali, Bangladesh</h3>
+                            <p class="donation-description">The recent floods in Noakhali have caused significant damage to homes and infrastructure. Your donation will help provide essential supplies to those affected by this disaster. Every contribution, big or small, makes a difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                            <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-xs" />
+                            <button class="btn btn-block btn-donate">Donate Now</button>
+                        </div>
+                    </div>
+    
+                    <div class="donation-card">
+                        <img src="./assets/feni.png" alt="feni">
+                        <div class="donation-content">
+                            <div class="donated-amount">
+                                <img src="./assets/coin.png" alt="coin">
+                                <p id="present-amount">600 BDT</p>
+                            </div>
+                            <h3 class="donation-title">Donate for Flood Relief in Feni,Bangladesh</h3>
+                            <p class="donation-description">The recent floods in Feni have devastated local communities, leading to severe disruption and loss. Your generous donation will help provide immediate aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts towards making a real difference. Please consider donating today to assist those in urgent need.</p>
+                            <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-xs" />
+                            <button class="btn btn-block btn-donate">Donate Now</button>
+                        </div>
+                    </div>
+    
+                    <div class="donation-card">
+                        <img src="./assets/quota-protest.png" alt="quota">
+                        <div class="donation-content">
+                            <div class="donated-amount">
+                                <img src="./assets/coin.png" alt="coin">
+                                <p id="present-amount">2400 BDT</p>
+                            </div>
+                            <h3 class="donation-title">Aid for Injured in the Quota Movement</h3>
+                            <p class="donation-description">The recent Quota movement has resulted in numerous injuries and significant hardship for many individuals. Your support is crucial in providing medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help ensure that injured individuals receive the care and support they need during this challenging time. Every donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider making a donation to support these brave individuals in their time of need.</p>
+                            <input type="text" placeholder="Write Donation Amount" class="input input-bordered w-full max-w-xs" />
+                            <button class="btn btn-block btn-donate">Donate Now</button>
+                        </div>
+                    </div>
+
+                    <dialog id="my_modal_1" class="modal">
+                        <div class="modal-box">
+                          <h2 class="text-lg font-bold">Congrates!</h2>
+                          <img src="./assets/coin.png" alt="coin">
+                          <p class="py-4">You Have Donated For Humankind</p>
+                          <h3>Successfully</h3>
+                          <div class="modal-action">
+                            <form method="dialog">
+                              <button class="btn">Close confirmation</button>
+                            </form>
+                          </div>
+                        </div>
+                    </dialog>
+        
+                </div>
             </div>
         </div>
-    </div>
-    <div class="history-body">
-        
+        <div class="history-body">
+            <div class="container">
+                <div class="history-cards">
+                    <div class="history-card">
+                        <h3 id="history-title">500 BDT is Donate for Flood Relief in Feni,Bangladesh</h3>
+                        <p id="date">Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
