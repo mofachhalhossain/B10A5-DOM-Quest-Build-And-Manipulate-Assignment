@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+        <div class="nav-wrap">
+            <nav class="container">
+                <a href="index.html" class="blog-page">Home</a>
+                <div class="logo">
+                    <img src="/assets/logo.png" alt="logo">
+                    <p>Donate Bangladesh</p>
+                </div>
+                <div class="amount">
+                    <img src="/assets/coin.png" alt="coin">
+                    <p id="amount">5500 BDT</p>
+                </div>
+            </nav>
+        </div>
+        <div class="donation-toggle-buttons container">
+            <button id="btn-donation" class="donation">Donation</button>
+            <button id="btn-history" class="history">History</button>
+        </div>
+    </header>
+
+    <div class="blog container">
+        <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the DOM in JavaScript?</div>
+            <div class="collapse-content">
+                <p>The DOM (Document Object Model) is a tree-like structure representing a webpage. JavaScript uses it to access and change HTML and CSS dynamically.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">What is a DOM node?</div>
+            <div class="collapse-content">
+                <p>A DOM node is a part of the document, such as an element, attribute (class), or text.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">How do I change content in the DOM?</div>
+            <div class="collapse-content">
+                <p>Use innerHTML or textContent to change or update the content of an element.</p>
+            </div>
+        </div>
+        <!-- New Accordion Item -->
+        <div class="collapse collapse-plus">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">How do I add elements to the DOM?</div>
+            <div class="collapse-content">
+                <p>To add elements, use createElement() to create the element, then appendChild() or insertBefore() to add it to the DOM.</p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
